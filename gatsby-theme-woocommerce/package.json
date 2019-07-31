@@ -1,12 +1,21 @@
 {
     "name": "@ccerda0520/gatsby-theme-woocommerce",
-    "version": "1.0.1",
+    "author": {
+        "name": "Carlos Cerda",
+        "email": "ccerda0520@gmail.com",
+        "url": "https://componentbasedcarlos.com"
+    },
+    "version": "1.0.2",
     "main": "index.js",
     "license": "MIT",
     "scripts": {
         "build": "gatsby build",
         "clean": "gatsby clean",
         "develop": "gatsby develop"
+    },
+    "repository": {
+        "type": "git",
+        "repository": "https://github.com/ccerda0520/gatsby-theme-woocommerce"
     },
     "peerDependencies": {
         "gatsby": "^2.13.32",
