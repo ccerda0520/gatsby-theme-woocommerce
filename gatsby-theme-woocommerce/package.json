@@ -1,0 +1,37 @@
+{
+    "name": "@ccerda0520/gatsby-theme-woocommerce",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "gatsby build",
+        "clean": "gatsby clean",
+        "develop": "gatsby develop"
+    },
+    "peerDependencies": {
+        "gatsby": "^2.13.32",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    },
+    "devDependencies": {
+        "gatsby": "^2.13.32",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    },
+    "dependencies": {
+        "@pasdo501/gatsby-source-woocommerce": "^0.6.2",
+        "gatsby-image": "^2.2.6",
+        "gatsby-plugin-react-helmet": "^3.1.2",
+        "gatsby-plugin-react-svg": "^2.1.1",
+        "gatsby-plugin-sharp": "^2.2.9",
+        "gatsby-transformer-sharp": "^2.2.4",
+        "prop-types": "^15.7.2",
+        "react-helmet": "^5.2.1",
+        "styled-components": "^4.3.2"
+    },
+    "keywords": [
+        "gatsby",
+        "gatsby-theme",
+        "gatsby-plugin"
+    ]
+}
