@@ -15,7 +15,6 @@ const cartReducer = (state, action) => {
 const CartProvider = ({ children }) => {
     const [state, setCart] = React.useReducer(cartReducer, JSON.parse(localStorage.getItem('woo-cart')) || []);
     React.useEffect(() => {
-        console.log(state);
         localStorage.setItem('woo-cart', JSON.stringify(state));
     }, [state]);
     return (

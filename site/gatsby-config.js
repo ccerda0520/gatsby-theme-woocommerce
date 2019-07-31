@@ -3,10 +3,10 @@ module.exports = {
         {
             resolve: '@ccerda0520/gatsby-theme-woocommerce',
             options: {
-                woocommerce_api: 'wp-woocommerce-themejam.dev.localhost',
-                woocommerce_https: false,
-                woocommerce_consumer_key: 'ck_79997ad91749a5dfe86e34133ac247aaed932216',
-                woocommerce_consumer_secret: 'cs_cbaf2e1a7c262b64f7b42d740db98635ea1bd84c',
+                woocommerce_api: 'gatsby-theme-woocommerce.carlosalfredocerda.com',
+                woocommerce_https: true,
+                woocommerce_consumer_key: 'ck_2a4e9cbf8eaa4e36df7325b450ddb3cfd3b080df',
+                woocommerce_consumer_secret: 'cs_422d3fc501d1d77be23e9410d391e0c86bea832e',
             },
         },
     ],

@@ -5,7 +5,6 @@ import SimpleProduct from '../components/product/simple-product';
 import { Container } from '../helpers/common-styles';
 
 const ProductTemplate = ({ pageContext: { product, ...pageContext } }) => {
-    console.log(product);
     const productLayout = getProductLayout(product);
     return <Layout title={product.name}>{productLayout}</Layout>;
 };
