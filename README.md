@@ -2,7 +2,7 @@
 
 This is a Gatsby theme for displaying products from a Wordpress Woocommerce instance.
 
-See the [live demo](https://gatsby-theme-jam-example.netlify.com)
+See the [live demo](https://gatsby-theme-woocommerce.netlify.com/)
 
 ## Features
 
