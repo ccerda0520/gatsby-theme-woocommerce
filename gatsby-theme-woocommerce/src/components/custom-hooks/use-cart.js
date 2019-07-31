@@ -13,9 +13,16 @@ const cartReducer = (state, action) => {
 };
 
 const CartProvider = ({ children }) => {
-    const [state, setCart] = React.useReducer(cartReducer, JSON.parse(localStorage.getItem('woo-cart')) || []);
+    const windowGlobal = typeof window !== 'undefined' && window;
+    const [state, setCart] = React.useReducer(cartReducer, []);
     React.useEffect(() => {
-        localStorage.setItem('woo-cart', JSON.stringify(state));
+        setCart({
+            type: 'update',
+            cart: JSON.parse(windowGlobal.localStorage.getItem('woo-cart')) || [],
+        });
+    }, []);
+    React.useEffect(() => {
+        windowGlobal.localStorage.setItem('woo-cart', JSON.stringify(state));
     }, [state]);
     return (
         <CartStateContext.Provider value={state}>
