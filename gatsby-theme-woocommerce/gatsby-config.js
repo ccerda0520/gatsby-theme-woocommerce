@@ -24,5 +24,11 @@ module.exports = ({ woocommerce_api, woocommerce_https, woocommerce_consumer_key
                 },
             },
         },
+        {
+            resolve: `gatsby-plugin-styled-components`,
+            options: {
+                // Add any options here
+            },
+        },
     ],
 });
